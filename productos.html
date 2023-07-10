@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Ferreteria GS</h1>
+    </header>
+
+    <h2>Nuevo Articulo</h2>
+
+        <main class="box-center">
+        <form action="guardado.html" method="post" class="box">
+            <fieldset id="recuadro">
+                <legend>Registro de producto</legend>
+
+                    <br>
+                    <label>Código</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+                
+
+            
+                    <label>Descripción</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+                
+
+        
+                    <label>Codigo de barra</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+
+                
+                    <label>Precio unitario</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+
+                
+                    <label>Stock</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+
+               
+                    <label>Proveedor</label>
+                    <input class="texto" type="text" class="Relleno">
+                    <br><br>
+
+                
+                    <label>Estado</label>
+                    <input type="checkbox" class="Relleno">
+                    <br><br>
+
+                
+                    <label>Categoría</label>
+                    <select name="Categoría" class="Relleno">
+                        <option value="Categoría 1">Categoría 1</option>
+                        <option value="Categoría 2">Categoría 2</option>
+                        <option value="Categoría 3">Categoría 3</option>
+                        <option value="Categoría 4">Categoría 4</option>
+                    </select>
+                    <br><br>
+
+                    <div>
+                    <input  class="botones" type="submit" value="Guardar" style="background: blue; color: white;"> 
+                    <input  class="botones" type="button" value="Cancelar" onclick="location.href='./index.html'" style="background: red;" >
+                    </div>
+        </fieldset>
+        </form>
+        </main>
+</body>
+</html>
